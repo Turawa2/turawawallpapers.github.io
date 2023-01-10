@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+body{
+	background-color: whitesmoke;
+	
+}
+.second ul{
+	font-size: 20px;
+	color: whitesmoke;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	
+}
+.second span{
+	font-size: 50px;
+}
+.second li{
+	list-style: none;
+	color: whitesmoke;
+}
+.second input{
+	width: 50%;
+	height: 50px;
+	border-radius: 5px;
+	border: none;
+	text-align: center;
+
+}
+.second button{
+	width:30% ;
+	height: 50px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+
+}
+.second button:hover{
+	box-shadow: 2px 2px 2px 2px black;
+	background-color: rgb(14, 211, 152);
+	transition: 0.5s all;
+	color: whitesmoke;
+}
+.first{
+	background-color: #096470;
+	width: 80%;
+    margin-bottom: 50%;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 15%;
+    height: 22rem;
+    border-radius: 10px;
+    box-shadow: 30px 10px 30px 10px black;
+}
+.second{
+	margin-top: 10px;
+}
